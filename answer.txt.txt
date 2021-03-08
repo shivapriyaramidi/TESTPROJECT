@@ -1,0 +1,3 @@
+what is POM ?
+page object model maintain the automation script 
+Every page has a seperate class the class can hold perticular page object repositories and methods , functions.
