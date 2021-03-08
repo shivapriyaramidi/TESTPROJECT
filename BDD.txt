@@ -1,0 +1,20 @@
+Cucumber Feature File 
+
+
+Feature:  Userable to login and drop down
+
+Scenario: user sucessfully select the dropdown
+
+Given user is on web page
+When verify the login
+When  valid email
+Then valid password
+
+Scenario outline:  user sucessfully select the dropdown
+Given user is on web page
+When verify the login
+When  valid email
+Then valid password
+ Example  :
+ UserId | Email|password
+ 01 | 123@gmail|12345678
